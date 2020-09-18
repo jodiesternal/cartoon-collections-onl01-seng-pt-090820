@@ -6,7 +6,11 @@ def summon_captain_planet(object)
   object.map { |object| object.capitalize + "!" }
 end
 
-def long_planeteer_calls()
+def long_planeteer_calls((planeteer_calls)
+  # Your code here	  planeteer_calls.any? do |call|
+  call.length > 4
+  end
+	end)
   # Your code here
 end
 
