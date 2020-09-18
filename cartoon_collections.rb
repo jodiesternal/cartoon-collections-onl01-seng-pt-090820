@@ -3,8 +3,7 @@ def roll_call_dwarves(name)
 end
 
 def summon_captain_planet(object)
-  object.any? do |call|
-  call.length > 4
+  object.map { |object| object.capitalize + "!" }
 end
 
 def long_planeteer_calls()
