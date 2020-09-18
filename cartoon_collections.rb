@@ -2,11 +2,12 @@ def roll_call_dwarves(name)
  name.each_with_index {|name, index| puts "#{index +1}. #{name}"}
 end
 
-def summon_captain_planet()
-  # Your code here
+def summon_captain_planet(object)
+  object.any? do |call|
+  call.length > 4
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls()
   # Your code here
 end
 
